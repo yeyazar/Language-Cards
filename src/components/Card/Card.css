@@ -1,0 +1,14 @@
+.card{
+    margin: 1.5rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 110px;
+}
+
+
+.small-logo{
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}

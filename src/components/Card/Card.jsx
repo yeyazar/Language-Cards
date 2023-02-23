@@ -1,9 +1,15 @@
-import React from 'react'
+import "./Card.css";
 
-const Card = () => {
+const Card = (data) => {
+  console.log(data);
   return (
-    <div>Card</div>
-  )
-}
+    <div>
+      <div className="card">
+        <img className="small-logo" src={data.img} alt="" />
+        <h6 className="name">{data.name}</h6>
+      </div>
+    </div>
+  );
+};
 
-export default Card
+export default Card;
